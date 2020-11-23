@@ -4,46 +4,67 @@
 }
 .row {
     width: 100%;
+    margin-left:0.05%;
+    margin-right:0.05%;
   }
   
-
+h1{
+    color: blue;
+    margin-left: 40%;
+}
 @media(min-width:992px){
     .col-md-4{
-        width:33%;
+        width:31%;
         border:1px solid blue;
         background-color: brown;
         float: left;
+        margin-left:2.33%;
     }
 
 }
 @media(min-width:768px) and (max-width:991px){
     .col-md-6{
-        width:50%;
+        width:45%;
         border:1px solid blue;
         background-color: brown;
         float: left;
+        margin-left:2.33%;
         
+        
+        margin-bottom: 3%;
     }
-    .col-md-1{
-        width:100%;
+    .col-md-2{
+        width:92.5%;
         border:1px solid blue;
         background-color: brown;
-        float:left;
-
+        float: left;
+        margin-left:2.33%;
+        
+        
+        margin-bottom: 3%;
     }
+   
 }
 @media(max-width:767px){
     .col-md-1{
-        width:100%;
+        width:97.76%;
         border:1px solid blue;
         background-color: brown;
         float:left;
-
+        margin-right:2.33%;
+        margin-bottom: 3%;
     }
 
 }
 .title{
+    background-color: chartreuse;
     position: relative;
-    left:90%;
+    left:86%;
+    width:10%;
     top:0%;
+    border:1px solid black;
+}
+p{
+    margin-right: 1em;
+    margin-left: 1em;
 }
